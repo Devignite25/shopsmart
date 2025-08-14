@@ -1,0 +1,227 @@
+[
+  {
+    "title": "Organic Turmeric Curcumin 1500mg",
+    "brand": "iHerb",
+    "category": "Organic & Natural",
+    "description": "High-potency turmeric with black pepper for absorption. Great for joint and overall wellness.",
+    "price": 19.99,
+    "tags": [
+      "anti-inflammatory",
+      "curcumin",
+      "black-pepper"
+    ],
+    "verified": true,
+    "image": "https://picsum.photos/seed/turmeric/600/400",
+    "url": "https://example.com/affiliate/iherb/turmeric-curcumin"
+  },
+  {
+    "title": "Vitamin D3 5000 IU",
+    "brand": "iHerb",
+    "category": "Family Wellness",
+    "description": "Daily sunshine vitamin to support immune health and bone strength.",
+    "price": 12.49,
+    "tags": [
+      "immune",
+      "bone-health",
+      "fat-soluble"
+    ],
+    "verified": true,
+    "image": "https://picsum.photos/seed/vitd3/600/400",
+    "url": "https://example.com/affiliate/iherb/vitamin-d3-5000"
+  },
+  {
+    "title": "Omega-3 Fish Oil 1000mg",
+    "brand": "iHerb",
+    "category": "Family Wellness",
+    "description": "EPA/DHA rich fish oil to support heart, brain, and eye health.",
+    "price": 16.95,
+    "tags": [
+      "omega-3",
+      "epa-dha",
+      "heart-health"
+    ],
+    "verified": false,
+    "image": "https://picsum.photos/seed/omega3/600/400",
+    "url": "https://example.com/affiliate/iherb/omega-3-1000"
+  },
+  {
+    "title": "Alpha Brain\u00ae Nootropic",
+    "brand": "Onnit",
+    "category": "Sports & Performance",
+    "description": "Popular daily nootropic designed to support memory, focus, and mental clarity.",
+    "price": 79.9,
+    "tags": [
+      "nootropic",
+      "focus",
+      "memory"
+    ],
+    "verified": true,
+    "image": "https://picsum.photos/seed/alphabrain/600/400",
+    "url": "https://example.com/affiliate/onnit/alpha-brain"
+  },
+  {
+    "title": "Total Human\u00ae Day & Night Pack",
+    "brand": "Onnit",
+    "category": "Sports & Performance",
+    "description": "All-in-one vitamin/mineral and botanical packs formulated for daytime performance and nighttime recovery.",
+    "price": 137.95,
+    "tags": [
+      "multivitamin",
+      "recovery",
+      "performance"
+    ],
+    "verified": true,
+    "image": "https://picsum.photos/seed/totalhuman/600/400",
+    "url": "https://example.com/affiliate/onnit/total-human"
+  },
+  {
+    "title": "Shroom Tech\u00ae Sport",
+    "brand": "Onnit",
+    "category": "Sports & Performance",
+    "description": "Cordyceps-powered pre-workout support for endurance and energy.",
+    "price": 59.95,
+    "tags": [
+      "cordyceps",
+      "preworkout",
+      "endurance"
+    ],
+    "verified": false,
+    "image": "https://picsum.photos/seed/shroomtech/600/400",
+    "url": "https://example.com/affiliate/onnit/shroom-tech-sport"
+  },
+  {
+    "title": "100% Grass-Fed Whey Isolate",
+    "brand": "Transparent Labs",
+    "category": "Sports & Performance",
+    "description": "High-purity, grass-fed whey isolate with no artificial sweeteners or colors.",
+    "price": 69.99,
+    "tags": [
+      "protein",
+      "whey-isolate",
+      "grass-fed"
+    ],
+    "verified": true,
+    "image": "https://picsum.photos/seed/wheyisolate/600/400",
+    "url": "https://example.com/affiliate/transparent-labs/whey-isolate"
+  },
+  {
+    "title": "PreSeries BULK Pre-Workout",
+    "brand": "Transparent Labs",
+    "category": "Sports & Performance",
+    "description": "Clinically dosed pre-workout supporting strength, pump, and focus \u2014 with transparent labeling.",
+    "price": 49.99,
+    "tags": [
+      "preworkout",
+      "strength",
+      "pump"
+    ],
+    "verified": false,
+    "image": "https://picsum.photos/seed/preseriesbulk/600/400",
+    "url": "https://example.com/affiliate/transparent-labs/preseries-bulk"
+  },
+  {
+    "title": "Creatine HMB",
+    "brand": "Transparent Labs",
+    "category": "Sports & Performance",
+    "description": "Monohydrate creatine paired with HMB to support strength and lean mass.",
+    "price": 39.99,
+    "tags": [
+      "creatine",
+      "hmb",
+      "strength"
+    ],
+    "verified": false,
+    "image": "https://picsum.photos/seed/creatinehmb/600/400",
+    "url": "https://example.com/affiliate/transparent-labs/creatine-hmb"
+  },
+  {
+    "title": "Organic Multivitamin for Women",
+    "brand": "Nature\u2019s Brands",
+    "category": "Organic & Natural",
+    "description": "Certified organic, plant-based multi formulated for daily energy and immune support.",
+    "price": 34.95,
+    "tags": [
+      "organic",
+      "women",
+      "multivitamin"
+    ],
+    "verified": true,
+    "image": "https://picsum.photos/seed/nbwomen/600/400",
+    "url": "https://example.com/affiliate/natures-brands/organic-womens-multi"
+  },
+  {
+    "title": "Organic Kids Multivitamin Gummies",
+    "brand": "Nature\u2019s Brands",
+    "category": "Family Wellness",
+    "description": "Yummy organic gummies with essential vitamins for growing kids.",
+    "price": 21.5,
+    "tags": [
+      "kids",
+      "gummies",
+      "organic"
+    ],
+    "verified": false,
+    "image": "https://picsum.photos/seed/nbkids/600/400",
+    "url": "https://example.com/affiliate/natures-brands/kids-multi-gummies"
+  },
+  {
+    "title": "Plant-Based Calcium + D3",
+    "brand": "Nature\u2019s Brands",
+    "category": "Family Wellness",
+    "description": "Algae-based calcium with vegan D3 for bone and teeth support.",
+    "price": 27.99,
+    "tags": [
+      "calcium",
+      "vitamin-d3",
+      "bone-health"
+    ],
+    "verified": false,
+    "image": "https://picsum.photos/seed/nbcalcium/600/400",
+    "url": "https://example.com/affiliate/natures-brands/calcium-d3"
+  },
+  {
+    "title": "Kids Chewable Multivitamin & Mineral",
+    "brand": "Country Life",
+    "category": "Family Wellness",
+    "description": "Gentle, tasty chewables to help cover common nutrient gaps in kids.",
+    "price": 15.99,
+    "tags": [
+      "kids",
+      "chewable",
+      "multivitamin"
+    ],
+    "verified": true,
+    "image": "https://picsum.photos/seed/clkids/600/400",
+    "url": "https://example.com/affiliate/country-life/kids-chewable-multi"
+  },
+  {
+    "title": "Magnesium Glycinate 400mg",
+    "brand": "Country Life",
+    "category": "Family Wellness",
+    "description": "Highly bioavailable magnesium to support relaxation, sleep, and muscle function.",
+    "price": 18.49,
+    "tags": [
+      "magnesium",
+      "sleep",
+      "recovery"
+    ],
+    "verified": false,
+    "image": "https://picsum.photos/seed/clmag/600/400",
+    "url": "https://example.com/affiliate/country-life/magnesium-glycinate"
+  },
+  {
+    "title": "Vitamin B12 5000mcg Lozenges",
+    "brand": "Country Life",
+    "category": "Organic & Natural",
+    "description": "Methylcobalamin lozenges to support energy and nervous system health.",
+    "price": 14.25,
+    "tags": [
+      "b12",
+      "energy",
+      "methylcobalamin"
+    ],
+    "verified": false,
+    "image": "https://picsum.photos/seed/clb12/600/400",
+    "url": "https://example.com/affiliate/country-life/b12-5000"
+  }
+]

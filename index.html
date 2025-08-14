@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shop Smart – Organic Vitamins, Family Wellness & Performance Fuel</title>
+  <meta name="description" content="Handpicked natural supplements, clean-label sports nutrition, and everyday wellness picks for busy families — curated in Jacksonville, Florida." />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Shop Smart – Organic Vitamins, Family Wellness & Performance Fuel" />
+  <meta property="og:description" content="Natural supplements, sports nutrition, and wellness picks for families." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-card.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" href="styles.css" as="style" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container row space-between center">
+      <a class="brand" href="./">
+        <img src="assets/logo.svg" alt="Logo" width="28" height="28"/>
+        <span>Shop Smart</span>
+      </a>
+      <nav class="nav">
+        <a href="#products">Products</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Organic Vitamins, Family Wellness, and Performance Fuel.</h1>
+        <p class="lead">Handpicked natural supplements, clean-label sports nutrition, and everyday wellness picks for busy families — curated in Jacksonville, Florida.</p>
+        <div class="controls">
+          <input id="searchInput" type="search" placeholder="Search products, brands, or tags…" aria-label="Search products" />
+          <select id="categoryFilter" aria-label="Filter by category">
+            <option value="">All categories</option>
+          </select>
+        </a>
+        <p class="disclaimer">Heads up: Some links are affiliate links. We may earn a commission at no extra cost to you.</p>
+      </a>
+    </section>
+
+    <section id="products" class="products container">
+      <div id="productGrid" class="grid"></a>
+      <div id="emptyState" class="empty hidden">No products match that search. Try a different keyword.</a>
+    </section>
+
+    <section id="reviews" class="container reviews">
+      <h2>What readers say</h2>
+      <ul class="review-list">
+        <li>“Clear, fast, and honest picks. Found my new go-to.” — Alex R.</li>
+        <li>“Appreciate the pros/cons callouts. Saved me time.” — Priya S.</li>
+      </ul>
+    </section>
+
+    <section id="faq" class="container faq">
+      <h2>FAQ</h2>
+      <details>
+        <summary>Do you test every product?</summary>
+        <p>We research widely and prioritize products with strong reviews and reliable warranties. Whenever we personally test an item, we mark it as <b>Verified pick</b>.</p>
+      </details>
+      <details>
+        <summary>Are these affiliate links?</summary>
+        <p>Yes, many are. Using them supports our work at no extra cost to you.</p>
+      </details>
+      <details>
+        <summary>How often do you update?</summary>
+        <p>We refresh picks regularly to keep pricing and availability current.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container row space-between center">
+      <small>© <span id="year"></span> Shop Smart</small>
+      <a href="mailto:hello@example.com" class="btn ghost">Contact</a>
+    </a>
+  </footer>
+
+  <script src="app.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('year').textContent = new Date().getFullYear();
+    });
+  </script>
+</body>
+</html>
