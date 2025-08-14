@@ -1,0 +1,15 @@
+name: Validate products.json
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "products.json"
+      - ".github/workflows/validate-products.yml"
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check products.json is valid JSON array
+        run: |
+          jq -e 'type == "array" and all(.[]; has("title") and has("brand") and has("category") and has("description") and has("price") and has("tags") and has("verified") and has("image") and has("url"))' products.json
